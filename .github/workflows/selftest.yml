@@ -28,7 +28,7 @@ jobs:
           if-no-files-found: error
   self-test-macos:
     name: on MacOS
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
       - name: Set up Go
         uses: actions/setup-go@v2
